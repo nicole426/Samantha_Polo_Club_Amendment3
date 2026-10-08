@@ -52,10 +52,13 @@
         .nav-tagline {
             color: rgba(255,255,255,0.7);
             font-size: 0.75rem;
-            font-weight: 400;
+            font-weight: 600;
             letter-spacing: 1px;
             text-transform: uppercase;
+            text-decoration: none;
+            transition: color 0.3s;
         }
+        .nav-tagline:hover { color: var(--cyan); }
         .hero {
             position: relative;
             min-height: 600px;
@@ -444,7 +447,7 @@
 <nav class="nav">
     <div class="nav-inner">
         <a href="https://www.bogenhomes.com" class="nav-brand">The Edmund Bogen Team <span>|</span> Douglas Elliman</a>
-        <span class="nav-tagline">Market Intelligence</span>
+        <a class="nav-tagline" href="https://bogenhomes.com/agents/samantha-gornstein/" target="_blank">Contact</a>
     </div>
 </nav>
 
